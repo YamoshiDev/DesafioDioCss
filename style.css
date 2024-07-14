@@ -1,0 +1,160 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #00BFFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1E90FF;
+  }
+  
+  /* Banner Styles */
+  
+  .banner {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Course Content Styles */
+  
+  #course-content {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .modules-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .module {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .module span {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Transform World Styles */
+  
+  #transform-world {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #transform-world p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Professional Challenges Styles */
+  
+  #professional-challenges {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  #professional-challenges img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto
+  }
+  
+  /* Footer Styles */
+  
+  
+  footer {
+    background-color: #333; /* cor de fundo do footer */
+    color: #fff; /* cor do texto do footer */
+    padding: 20px; /* espaçamento interno do footer */
+    text-align: center; /* alinhamento do conteúdo do footer */
+  }
+  
+  .dio-logo {
+    width: 200px; /* largura da imagem do logotipo */
+    height: 100px; /* altura da imagem do logotipo */
+    margin-bottom: 20px; /* espaçamento entre a imagem e o texto */
+  }
+  
+  footer p {
+    font-size: 18px; /* tamanho do texto do parágrafo */
+    margin-bottom: 20px; /* espaçamento entre o parágrafo e o link */
+  }
+  
+  footer a {
+    color: #fff; /* cor do link */
+    text-decoration: none; /* remoção do sublinhado do link */
+  }
+  
+  footer a:hover {
+    color: #ccc; /* cor do link ao passar o mouse */
+  }
+
+  footer a:hover {
+    color: #fc0303; 
+  }
